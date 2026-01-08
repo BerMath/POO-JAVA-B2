@@ -1,7 +1,7 @@
 public class Animals {
-    private int age;
-    private String name;
-    private String sound;
+    protected int age;
+    protected String name;
+    protected String sound;
 
     public Animals (int age, String name, String sound){
         this.age = age;
@@ -9,27 +9,27 @@ public class Animals {
         this.sound = sound;
     }
 
-    public int getAge(){
+    private int getAge(){
         return age;
     }
 
-    public String getName(){
+    String getName(){
         return name;
     }
 
-    public void makeNoise(){
+    protected void makeNoise(){
         System.out.println(sound);
     }
 
-    public void makeEat(){
+    protected void makeEat(){
         System.out.println("est en train de manger");
     }
 
-    public void makeEat(String food){
+    protected void makeEat(String food){
         System.out.println("est en train de manger"+ food);
     }
 
-    public static void displayCommonInformation(){
+    protected static void displayCommonInformation(){
         System.out.println("Sounds of all animals");
     }
 }
