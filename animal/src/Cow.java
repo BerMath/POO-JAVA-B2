@@ -10,6 +10,6 @@ public class Cow extends Animals implements Pet{
 
     @Override
     public void play() {
-        System.out.println("la vache a bien manger");
+        System.out.println("la vache joue dans l'herbe");
     }
 }

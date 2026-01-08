@@ -11,7 +11,7 @@ public class Dog extends Animals implements Pet{
 
     @Override
     public void play() {
-        System.out.println("wow le chien avec la baballe");
-        System.out.println("le chien est si fatigué qu'il va dormir sur les jambes de gauthier");
+        System.out.println("wow le chien joue avec la baballe");
+
     }
 }
