@@ -1,3 +1,6 @@
+import java.lang.reflect.Array;
+import java.util.ArrayList;
+
 public class Main{
     public static void main(String[] args){
         Cow cow = new Cow(6,"michel");
@@ -12,6 +15,13 @@ public class Main{
         dog.makeEat();
         dog.makeEat(" dinde");
         dog.play();
+        cow.play();
+        ArrayList<Animals> list = new ArrayList<>();
+        list.add(cow);
+        list.add(dog);
+        for (Animals animal: list){
+            animal.makeEat();
+        }
 
     }
 }
