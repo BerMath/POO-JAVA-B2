@@ -5,7 +5,7 @@ public class Cow extends Animals implements Pet{
 
     @Override
     public void makeEat(){
-        System.out.println("la vache un chat");
+        System.out.println("la vache mange des céréales");
     }
 
     @Override

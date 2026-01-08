@@ -1,4 +1,4 @@
-public class Animals {
+public abstract class Animals {
     protected int age;
     protected String name;
     protected String sound;
@@ -33,4 +33,3 @@ public class Animals {
         System.out.println("Sounds of all animals");
     }
 }
-

@@ -1,17 +1,16 @@
 public class Dog extends Animals implements Pet{
 
     public Dog(int age, String name) {
-        super(age, name, "wouaf");
+        super(age, name, "woof");
     }
 
     @Override
     public void makeEat(){
-        System.out.println("le chien un autre chien");
+        System.out.println("le chien mange des croquettes");
     }
 
     @Override
     public void play() {
-        System.out.println("wow le chien joue avec la baballe");
-
+        System.out.println("le chien joue avec la balle");
     }
 }
