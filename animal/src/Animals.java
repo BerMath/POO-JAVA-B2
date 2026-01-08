@@ -24,6 +24,11 @@ public class Animals {
     public void makeEat(){
         System.out.println("est en train de manger");
     }
+
+    public void makeEat(String food){
+        System.out.println("est en train de manger"+ food);
+    }
+
     public static void displayCommonInformation(){
         System.out.println("Sounds of all animals");
     }

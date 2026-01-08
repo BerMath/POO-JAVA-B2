@@ -7,7 +7,9 @@ public class Main{
         System.out.println(cow.getName());
         Animals.displayCommonInformation();
         cow.makeEat();
+        cow.makeEat(" poulet");
         dog.makeEat();
+        dog.makeEat(" dinde");
 
     }
 }
