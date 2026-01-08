@@ -11,6 +11,7 @@ public class Main{
         System.out.println(dog.getName());
         dog.makeEat();
         dog.makeEat(" dinde");
+        dog.play();
 
     }
 }
