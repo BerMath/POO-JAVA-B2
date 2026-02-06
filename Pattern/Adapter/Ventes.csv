@@ -1,0 +1,7 @@
+id;produit;qte_vendue;prix_unitaire;date_vente
+2	1;Burger Veggie;15;8.00;2024-01-15
+3	2;CheeseBurger;22;10.00;2024-01-15
+4	3;Chicken Burger;18;9.00;2024-01-15
+5	4;Burger Veggie;10;8.00;2024-01-16
+6	5;CheeseBurger;25;10.00;2024-01-16
+7	6;Chicken Burger;12;9.00;2024-01-16
